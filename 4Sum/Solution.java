@@ -64,15 +64,6 @@ public class Solution {
         }
     }
 
-
-    private int max(int i, int j) {
-        return i>j ? i : j;
-    }
-
-    private int min(int i, int j) {
-        return i<j ? i : j;
-    }
-
     public List<List<Integer>> fourSum(int[] num, int target) {
 
         int len = num.length;
