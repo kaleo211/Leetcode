@@ -4,7 +4,7 @@ public class Solution {
     int target;
 
     public static void main(String[] args) {
-        int[] a = new int[]{5,1,3};
+        int[] a = new int[]{5,1,3, 3};
         System.out.println(new Solution().search(a, 3));
     }
 
