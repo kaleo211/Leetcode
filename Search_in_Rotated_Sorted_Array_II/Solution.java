@@ -1,5 +1,10 @@
 /**
- * different: 1,3,1,1,1
+ * bsearch: search in sorted array
+ * xsearch: search in rotated array
+ *
+ * if duplicate are allowed, the only different case is below.
+ * sequence: 1, 3, 5, 1, 1
+ * when last equals first, simply remove first one in xsearch
  */
 
 public class Solution {
