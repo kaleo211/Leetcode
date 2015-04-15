@@ -6,9 +6,7 @@
  * sequence: 1, 3, 5, 1, 1
  * when last equals first, simply remove first one in xsearch
  */
-
 public class Solution {
-
     // check whether target is in A.
     public boolean search(int[] A, int target) {
         int len = A.length;
