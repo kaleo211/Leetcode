@@ -9,19 +9,20 @@
 
 public class Solution {
 
-    public static void main(String[] args) {
-        int[] a = new int[]{1,3,4,1};
-        System.out.println(new Solution().search(a, 1));
-    }
-
+    // check whether target is in A.
     public boolean search(int[] A, int target) {
         int len = A.length;
-        if (len==0)
-            return false;
+        if (len==0) {return false;}
 
         if (xsearch(A, target, 0, len-1)>=0)
             return true;
         return false;
+    }
+
+
+    public static void main(String[] args) {
+        int[] a = new int[]{1,3,4,1};
+        System.out.println(new Solution().search(a, 1));
     }
 
     private int bsearch(int[] A, int target, int low, int high) {
